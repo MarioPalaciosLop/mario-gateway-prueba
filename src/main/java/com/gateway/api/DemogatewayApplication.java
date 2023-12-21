@@ -13,13 +13,13 @@ public class DemogatewayApplication {
         return builder.routes()
         		// microservices olivares
             .route("empleados_route", r -> r.path("/api/empleados/**")
-                .uri("https://f880-132-184-129-91.ngrok.io"))
+                .uri("https://198.44.2.1"))
          // microservices antonio
             .route("compras_route", r -> r.path("/api/carritoCompra/**")
                 .uri("https://ec9c-170-81-241-210.ngrok.io"))
          // microservices marito
             .route("proveedores_route", r -> r.path("/api/grupos-proveedores/**")
-                .uri("https://bc93-38-25-4-47.ngrok-free.app"))/*
+                .uri("https://192.73.2.42"))/*
          // microservices olivares
             .route("productos_route", r -> r.path("/api/productos/**")
                 .uri("${serv_productoss}"))
